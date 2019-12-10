@@ -1,0 +1,15 @@
+{
+  "name": "turf-analysis",
+  "version": "1.0.0",
+  "description": "Turn Analysis Monorepo",
+  "author": {
+    "name": "Sergey Perenets",
+    "email": "log1st.ps@gmail.com",
+    "url": "https://github.com/log1st"
+  },
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
