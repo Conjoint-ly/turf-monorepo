@@ -4,3 +4,6 @@
 [submodule "packages/examples"]
 	path = packages/examples
 	url = git@github.com:log1st/turf-analysis-examples.git
+[submodule "packages/ui"]
+	path = packages/ui
+	url = git@github.com:log1st/turf-analysis-ui.git
