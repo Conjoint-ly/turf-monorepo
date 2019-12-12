@@ -1,9 +1,9 @@
 [submodule "packages/core"]
 	path = packages/core
-	url = git@github.com:log1st/turf-analysis-core.git
+	url = git@github.com:Conjoint-ly/turf-analysis-core.git
 [submodule "packages/examples"]
 	path = packages/examples
-	url = git@github.com:log1st/turf-analysis-examples.git
+	url = git@github.com:Conjoint-ly/turf-analysis-examples.git
 [submodule "packages/ui"]
 	path = packages/ui
-	url = git@github.com:log1st/turf-analysis-ui.git
+	url = git@github.com:Conjoint-ly/turf-analysis-ui.git
