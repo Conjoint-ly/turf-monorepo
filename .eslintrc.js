@@ -9,6 +9,7 @@ module.exports = {
     "import/no-unresolved": [0],
     "import/prefer-default-export": [0],
     "import/no-dynamic-require": [0],
+    "import/no-extraneous-dependencies": [0],
     "global-require": [0],
 
     "vue/no-v-html": [0],
@@ -19,6 +20,8 @@ module.exports = {
     "no-param-reassign": [0],
     "linebreak-style": [0],
     "no-console": [process.env.NODE_ENV === 'development' ? 0 : 1],
-    "no-alert": [process.env.NODE_ENV === 'development' ? 0 : 1]
+    "no-alert": [process.env.NODE_ENV === 'development' ? 0 : 1],
+    "no-continue": [0],
+    "no-new": [0]
   }
 }
