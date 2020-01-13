@@ -1,12 +1,14 @@
 {
-  "name": "turf-analysis",
+  "name": "@conjointly/turf-analysis",
   "version": "1.0.0",
-  "description": "Turn Analysis Monorepo",
+  "description": "TURF Analysis Monorepo",
+  "repository": "git@github.com:Conjoint-ly/turf-analysis.git",
   "author": {
     "name": "Sergey Perenets",
     "email": "log1st.ps@gmail.com",
     "url": "https://github.com/log1st"
   },
+  "type": "module",
   "license": "MIT",
   "private": true,
   "workspaces": [
@@ -14,10 +16,11 @@
     "packages/examples/src/ui"
   ],
   "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "dotenv": "^8.2.0",
     "eslint": "^6.7.2",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.19.1",
-    "eslint-plugin-vue": "^6.0.1",
-    "dotenv": "^8.2.0"
+    "eslint-plugin-vue": "^6.0.1"
   }
 }
